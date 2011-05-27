@@ -10,7 +10,7 @@
  * @subpackage Ulrika_Auth_Adapter_Vk
  *
  * @author     Pavel Gopanenko <pavelgopanenko@gmail.com>
- * @license    http://www.zend.com/license/3_0.txt   PHP License 3.0
+ * @license    FreeBSD License
  * @version    Release: @package_version@
  * @link       https://github.com/pavelgopanenko/Zend-Framework-Vk-Auth/wiki/Ulrika_Auth_Adapter_Vk
  * @since      Class available since Release 1.0.0
