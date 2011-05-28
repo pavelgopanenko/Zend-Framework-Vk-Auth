@@ -9,25 +9,10 @@
          stopOnFailure="false"
          syntaxCheck="true"
          bootstrap="./Tests/bootstrap.php">
-<!--
-    <php>
-        <server name="SYMFONY" value="../../../symfony/src" />
-        <server name="KERNEL_DIR" value="../../../../app" />
-    </php>
--->
+
     <testsuites>
         <testsuite name="ZFVkAuth">
             <directory suffix="Test.php">./Tests</directory>
         </testsuite>
     </testsuites>
-
-    <filter>
-        <whitelist>
-            <directory>./</directory>
-            <exclude>
-                <directory>./Resources</directory>
-                <directory>./Tests</directory>
-            </exclude>
-        </whitelist>
-    </filter>
 </phpunit>
