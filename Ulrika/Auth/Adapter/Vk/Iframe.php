@@ -38,7 +38,7 @@ class Ulrika_Auth_Adapter_Vk_Iframe extends Ulrika_Auth_Adapter_Vk_Abstract
             $code = Zend_Auth_Result::FAILURE;
             $messages = array('Authentication is another application.');
 
-        } else if (md5($this->_getAppId() . '_' . $viewerId  . '_' . $this->_getSecret()) !== $authKey) {
+        } elseif (md5($this->_getAppId() . '_' . $viewerId  . '_' . $this->_getSecret()) !== $authKey) {
 
             $code = Zend_Auth_Result::FAILURE_CREDENTIAL_INVALID;
             $messages = array('Auth key invalid.');
